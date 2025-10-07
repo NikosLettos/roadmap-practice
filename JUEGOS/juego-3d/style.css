@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; background:#0f1216; color:#e8eef7; font-family: system-ui, Segoe UI, Roboto, Arial, sans-serif; }
+#app { display:block; width:100vw; height:100vh; outline:none; }
+#hud { position:fixed; top:12px; left:12px; display:flex; gap:12px; z-index:10; align-items:center; }
+.panel { background:rgba(255,255,255,0.06); backdrop-filter: blur(6px); border:1px solid rgba(255,255,255,0.12); padding:8px 12px; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.25); }
+.panel.small { font-size:12px; opacity:0.9; }
+button { background:#00c2ff; color:#001018; border:none; padding:8px 12px; border-radius:10px; font-weight:700; cursor:pointer; }
+button:hover { filter:brightness(1.1); }
